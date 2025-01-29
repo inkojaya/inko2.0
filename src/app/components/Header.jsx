@@ -64,7 +64,7 @@ export default function Header() {
         >
           {theme === 'light' ? <FaSun /> : <FaMoon />}
         </Button>
-        {/* <SignedIn>
+        <SignedIn>
           <UserButton
             appearance={{
               baseTheme: theme === 'light' ? light : dark,
@@ -78,7 +78,7 @@ export default function Header() {
               Sign In
             </Button>
           </Link>
-        </SignedOut> */}
+        </SignedOut>
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>

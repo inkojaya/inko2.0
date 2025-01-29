@@ -40,7 +40,7 @@ export default function Header() {
         <span className='px-2 py-1 bg-gradient-to-r from-blue-700 via-blue-800 to-blue-900 rounded-lg text-white'>
           Inko Jaya
         </span>
-        <span className='text-blue-900 tracking-tight'>Konstruksi</span>
+        <span className='text-blue-800 tracking-tight dark:text-gray-300'>Konstruksi</span>
       </Link>
       <form onSubmit={handleSubmit}>
         <TextInput
@@ -82,7 +82,7 @@ export default function Header() {
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
-        <Link href='/' className='text-md'>
+        <Link href='/'>
           <Navbar.Link active={path === '/'} as={'div'}>
             Home
           </Navbar.Link>
